@@ -13,6 +13,10 @@
 		ECE9F2D327BF2F73003C3698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE9F2D127BF2F73003C3698 /* Main.storyboard */; };
 		ECE9F2D527BF2F75003C3698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE9F2D427BF2F75003C3698 /* Assets.xcassets */; };
 		ECE9F2D827BF2F75003C3698 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE9F2D627BF2F75003C3698 /* LaunchScreen.storyboard */; };
+		ECE9F2E127BF3010003C3698 /* MyButtonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE9F2DF27BF3010003C3698 /* MyButtonCollectionViewCell.swift */; };
+		ECE9F2E227BF3010003C3698 /* MyButtonCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECE9F2E027BF3010003C3698 /* MyButtonCollectionViewCell.xib */; };
+		ECE9F2E527BF30BB003C3698 /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE9F2E327BF30BB003C3698 /* HeaderCollectionReusableView.swift */; };
+		ECE9F2E627BF30BB003C3698 /* HeaderCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECE9F2E427BF30BB003C3698 /* HeaderCollectionReusableView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		ECE9F2D427BF2F75003C3698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECE9F2D727BF2F75003C3698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECE9F2D927BF2F75003C3698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECE9F2DF27BF3010003C3698 /* MyButtonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButtonCollectionViewCell.swift; sourceTree = "<group>"; };
+		ECE9F2E027BF3010003C3698 /* MyButtonCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyButtonCollectionViewCell.xib; sourceTree = "<group>"; };
+		ECE9F2E327BF30BB003C3698 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		ECE9F2E427BF30BB003C3698 /* HeaderCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCollectionReusableView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				ECE9F2CD27BF2F73003C3698 /* SceneDelegate.swift */,
 				ECE9F2CF27BF2F73003C3698 /* ViewController.swift */,
 				ECE9F2D127BF2F73003C3698 /* Main.storyboard */,
+				ECE9F2DF27BF3010003C3698 /* MyButtonCollectionViewCell.swift */,
+				ECE9F2E027BF3010003C3698 /* MyButtonCollectionViewCell.xib */,
+				ECE9F2E327BF30BB003C3698 /* HeaderCollectionReusableView.swift */,
+				ECE9F2E427BF30BB003C3698 /* HeaderCollectionReusableView.xib */,
 				ECE9F2D427BF2F75003C3698 /* Assets.xcassets */,
 				ECE9F2D627BF2F75003C3698 /* LaunchScreen.storyboard */,
 				ECE9F2D927BF2F75003C3698 /* Info.plist */,
@@ -125,6 +137,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECE9F2E227BF3010003C3698 /* MyButtonCollectionViewCell.xib in Resources */,
+				ECE9F2E627BF30BB003C3698 /* HeaderCollectionReusableView.xib in Resources */,
 				ECE9F2D827BF2F75003C3698 /* LaunchScreen.storyboard in Resources */,
 				ECE9F2D527BF2F75003C3698 /* Assets.xcassets in Resources */,
 				ECE9F2D327BF2F73003C3698 /* Main.storyboard in Resources */,
@@ -138,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECE9F2E127BF3010003C3698 /* MyButtonCollectionViewCell.swift in Sources */,
 				ECE9F2D027BF2F73003C3698 /* ViewController.swift in Sources */,
 				ECE9F2CC27BF2F73003C3698 /* AppDelegate.swift in Sources */,
+				ECE9F2E527BF30BB003C3698 /* HeaderCollectionReusableView.swift in Sources */,
 				ECE9F2CE27BF2F73003C3698 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
